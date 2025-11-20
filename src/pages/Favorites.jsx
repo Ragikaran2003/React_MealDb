@@ -1,5 +1,5 @@
 import React from "react";
-import useFavorites from "../hooks/useFavorites";
+import { useFavorites } from "../contexts/FavoritesContext";
 import { FaHeart } from "react-icons/fa";
 import MealCard from "../components/MealCard";
 import { Link } from "react-router-dom";
